@@ -29,8 +29,8 @@
 $(document).ready(function(){
   $('#svgtextwrap{{id}}').attr('font-size', $('.bandcontent').width()*0.095);
   var width{{id}} = document.getElementById('svgtext{{id}}').getComputedTextLength();
-  $('#svgrect{{id}}').width(width{{id}}+70);
-  $('#svgrect{{id}}').height($('.bandcontent').width()*0.11);
+  $('#svgrect{{id}}').attr('width',width{{id}}+70);
+  $('#svgrect{{id}}').attr('height',$('.bandcontent').width()*0.11);
   $('#svgrect{{id}}').attr('x',(($('.bandcontent').width()-(width{{id}}+50))/2)-10);
   $('#svgtextwrap{{id}}').attr('y', ($('.bandcontent').width()*0.11-95)*0.8);
   $('.textbox').css('margin-top', -1*(110-$('.bandcontent').width()*0.11));
@@ -39,8 +39,8 @@ $(document).ready(function(){
   $(window).resize(function(){
     $('#svgtextwrap{{id}}').css({'font-size': $('.bandcontent').width()*0.095 });
     var width{{id}} = document.getElementById('svgtext{{id}}').getComputedTextLength();
-    $('#svgrect{{id}}').width(width{{id}}+70);
-    $('#svgrect{{id}}').height($('.bandcontent').width()*0.11);
+    $('#svgrect{{id}}').attr('width',width{{id}}+70);
+    $('#svgrect{{id}}').attr('height',$('.bandcontent').width()*0.11);
     $('#svgrect{{id}}').attr('x',(($('.bandcontent').width()-(width{{id}}+50))/2)-10);
     $('#svgtextwrap{{id}}').attr('y', ($('.bandcontent').width()*0.11-95)*0.8);
     $('.textbox').css('margin-top', -1*(110-$('.bandcontent').width()*0.11));
