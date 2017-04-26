@@ -16,10 +16,14 @@ keystone.init({
 
 	'sass': 'public',
 	'static': 'public',
+	'static options': { maxAge: 2592000000 },
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'hbs',
 	'frame guard': 'false',
+
+	'mongo': process.env.MONGODB_URI || 'mongodb://localhost/momeyer',
+	'cookie secret': 'jptriseverything',
 
 	'custom engine': handlebars.create({
 		layoutsDir: 'templates/views/layouts',
