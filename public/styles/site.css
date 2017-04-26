@@ -176,7 +176,7 @@ http://flickity.metafizzy.co
   background-size: cover !important; }
 
 .carousel-cell.is-selected {
-  background: #ED2; }
+  background: white; }
 
 .svg-text {
   opacity: 0.5;
