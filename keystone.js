@@ -20,7 +20,7 @@ keystone.init({
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'hbs',
-	'frame guard': false,
+	'frame guard': 'false',
 
 	'mongo': process.env.MONGODB_URI || 'mongodb://localhost/momeyer',
 	'cookie secret': 'jptriseverything',
