@@ -10,8 +10,8 @@
   text-align: center; }
 
 .slink {
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   display: block;
   margin: 0 auto; }
 
@@ -39,7 +39,7 @@
   background: url(../images/icons/instagram.png) no-repeat;
   background-size: 100%; }
 
-.slmail {
+.slemail {
   background: url(../images/icons/email.png) no-repeat;
   background-size: 100%; }
 

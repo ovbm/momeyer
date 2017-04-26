@@ -21,8 +21,8 @@ $font-size-base: 14px;
 }
 
 .slink{
-	width:2em;
-	height:2em;
+	width:2.5em;
+	height:2.5em;
 	display:block;
 	margin: 0 auto;
 }
@@ -51,7 +51,7 @@ $font-size-base: 14px;
   @include slImage('instagram.png');
 }
 
-.slmail{
+.slemail{
   @include slImage('email.png');
 }
 
