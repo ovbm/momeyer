@@ -28,12 +28,20 @@ body{
 	margin-top:60vh;
 }
 
+.carousel-cell:first-child .svg-text{
+	margin-top:50vh;
+}
+
 .svg-text svg text{
 	text-anchor: middle;
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Proxima Nova', 'Helvetica', sans-serif;
   letter-spacing: 5px;
+}
+
+.Marius .svg-text svg text{
+	letter-spacing: 0px;
 }
 
 tspan{
@@ -57,11 +65,21 @@ tspan{
 }
 
 
-.bandcontent h3{
-	width:100%;
-	text-align: center;
-	font-size: 2em;
-	margin:0;
+.bandcontent {
+	h3 {
+		width:100%;
+		text-align: center;
+		font-size: 1.8em;
+		margin:0;
+	}
+
+	a {
+		color: white;
+		font-weight: 700;
+		z-index: 999;
+		text-decoration: none;
+	}
+
 }
 
 .bandcontent .contentdesc,.bandcontent .contentlineup{
@@ -71,9 +89,7 @@ tspan{
 }
 
 .bandcontent a{
-	color: white;
-	font-weight: 700;
-	z-index: 999;
+
 }
 
 .textbox{
