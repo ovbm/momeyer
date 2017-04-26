@@ -1,0 +1,10 @@
+{{!< default}}
+<div class="container">
+	<div class="main-carousel">
+		{{#each bands}}
+			<div class="band carousel-cell" data-flickity-bg-lazyload="{{ image.secure_url }}">
+				{{> bandbox }}
+			</div>
+		{{/each}}
+	</div>
+</div>
