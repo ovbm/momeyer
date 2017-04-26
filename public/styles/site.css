@@ -251,7 +251,8 @@ tspan {
 
 .bandcontent a {
   color: white;
-  font-weight: 700; }
+  font-weight: 700;
+  z-index: 999; }
 
 .textbox {
   padding-top: 1em; }
