@@ -188,6 +188,17 @@ http://flickity.metafizzy.co
   transform: perspective(500px) translateZ(100px);
   opacity: 1; }
 
+.contentlink {
+  opacity: 0.5;
+  letter-spacing: 5px;
+  -webkit-transition: opacity 600ms, transform 600ms;
+  transition: opacity 600ms, transform 600ms;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
+
+.carousel-cell.is-selected .contentlink {
+  transform: perspective(500px) translateZ(100px);
+  opacity: 1; }
+
 body {
   margin: 0;
   font-family: 'Proxima Nova', 'Helvetica', sans-serif;
@@ -240,10 +251,6 @@ tspan {
   text-align: center;
   font-size: 2em;
   margin: 0; }
-
-.bandcontent .contentlink {
-  letter-spacing: 5px;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
 
 @media screen and (max-width: 414px) {
   .bandcontent .contentdesc, .bandcontent .contentlineup {

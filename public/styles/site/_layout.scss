@@ -64,11 +64,6 @@ tspan{
 	margin:0;
 }
 
-.bandcontent .contentlink{
-	letter-spacing: 5px;
-	text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-}
-
 .bandcontent .contentdesc,.bandcontent .contentlineup{
 	@media screen and (max-width: 414px){
 		font-size: 1.5em;
