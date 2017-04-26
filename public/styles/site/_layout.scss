@@ -52,6 +52,11 @@ tspan{
 	display:none;
 }
 
+.carousel-cell:not(:first-child) .sllinks{
+	display:none;
+}
+
+
 .bandcontent h3{
 	width:100%;
 	text-align: center;

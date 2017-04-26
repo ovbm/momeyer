@@ -1,3 +1,52 @@
+.sllinks {
+  position: absolute;
+  top: 1em;
+  width: 100%; }
+
+.slcontainer {
+  width: 64px;
+  float: left;
+  margin: 1em 0 1em 0;
+  text-align: center; }
+
+.slink {
+  width: 2em;
+  height: 2em;
+  display: block;
+  margin: 0 auto; }
+
+.sltwitter {
+  background: url(../images/icons/twitter.png) no-repeat;
+  background-size: 100%; }
+
+.slfbook {
+  background: url(../images/icons/fbook.png) no-repeat;
+  background-size: 100%; }
+
+.slsoundcloud {
+  background: url(../images/icons/scld.png) no-repeat;
+  background-size: 100%; }
+
+.slbandcamp {
+  background: url(../images/icons/bandcamp.png) no-repeat;
+  background-size: 100%; }
+
+.slspotify {
+  background: url(../images/icons/spotify.png) no-repeat;
+  background-size: 100%; }
+
+.slinstagram {
+  background: url(../images/icons/instagram.png) no-repeat;
+  background-size: 100%; }
+
+.slmail {
+  background: url(../images/icons/email.png) no-repeat;
+  background-size: 100%; }
+
+.slyoutube {
+  background: url(../images/icons/youtube.png) no-repeat;
+  background-size: 100%; }
+
 /*! Flickity v2.0.5
 http://flickity.metafizzy.co
 ---------------------------------------------- */
@@ -181,6 +230,9 @@ tspan {
   display: none; }
 
 .carousel-cell:not(:first-child) .contentlineup {
+  display: none; }
+
+.carousel-cell:not(:first-child) .sllinks {
   display: none; }
 
 .bandcontent h3 {

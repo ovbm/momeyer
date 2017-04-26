@@ -28,6 +28,7 @@ Band.add({
 		linktext: { type: Types.Text },
 		link: { type: Types.Url },
 		facebooklink: { type: Types.Url },
+		instagramlink: { type: Types.Url },
 	},
 });
 

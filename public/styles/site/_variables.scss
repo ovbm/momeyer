@@ -1,3 +1,60 @@
 // Override Bootstrap variables in this file, e.g.
 
 $font-size-base: 14px;
+
+@mixin slImage($image){
+  background: url(../images/icons/#{$image}) no-repeat;
+  background-size:100%;
+}
+
+.sllinks{
+  position:absolute;
+  top:1em;
+  width:100%;
+}
+
+.slcontainer{
+	width:64px;
+	float:left;
+	margin: 1em 0 1em 0;
+	text-align: center;
+}
+
+.slink{
+	width:2em;
+	height:2em;
+	display:block;
+	margin: 0 auto;
+}
+
+.sltwitter{
+	@include slImage('twitter.png');
+}
+
+.slfbook{
+	@include slImage('fbook.png');
+}
+
+.slsoundcloud{
+  @include slImage('scld.png');
+}
+
+.slbandcamp{
+  @include slImage('bandcamp.png');
+}
+
+.slspotify{
+  @include slImage('spotify.png');
+}
+
+.slinstagram{
+  @include slImage('instagram.png');
+}
+
+.slmail{
+  @include slImage('email.png');
+}
+
+.slyoutube{
+  @include slImage('youtube.png');
+}
